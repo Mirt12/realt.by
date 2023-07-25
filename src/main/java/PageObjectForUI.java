@@ -3,8 +3,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class PageObjectForUI {
-    WebDriver driver;
-    private String endpoint = "https://realt.by";
+    private WebDriver driver;
+    public static final String endpoint = "https://realt.by";
     private String vtorichkaDropDownLocator = "//body/div[3]/div[8]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/select[1]";
     private String naSutkiOptionLocator = "//*[@id=\"residentialInputs\"]/div[1]/form/div[1]/div/div[1]/select/option[4]";
     private String amountOfRoomsDropDownLocator = "//select[@id='rooms']";
